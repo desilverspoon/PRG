@@ -66,9 +66,9 @@
 </ul>
 <hr />
 <h2 class="AnswerParser_AnswerParserH2__SIHnF"><strong>Installation Instructions</strong></h2>
-<p><span class="AnswerParser_TextContainer__z_Iiv" data-testid="youchat-text">To install all the required Python libraries, you can use the provided&nbsp;<code translate="no">install.bat</code>&nbsp;file. This will automatically install the dependencies using&nbsp;<code translate="no">pip</code>.</span></p>
+<p><span class="AnswerParser_TextContainer__z_Iiv" data-testid="youchat-text">To install all the required Python libraries, you can use the provided&nbsp;<code translate="no">installdependencies.bat</code>&nbsp;file. This will automatically install the dependencies using&nbsp;<code translate="no">pip</code>.</span></p>
 <h3 class="AnswerParser_AnswerParserH3__Mpe4s"><strong>Install.bat File</strong></h3>
-<p><span class="AnswerParser_TextContainer__z_Iiv" data-testid="youchat-text">The&nbsp;<code translate="no">install.bat</code>&nbsp;file contains the following commands:</span></p>
+<p><span class="AnswerParser_TextContainer__z_Iiv" data-testid="youchat-text">The&nbsp;<code translate="no">installdependencies.bat</code>&nbsp;file contains the following commands:</span></p>
 <div translate="no">
 <div data-testid="youchat-code">
 <div class="rabwn52">
@@ -89,8 +89,8 @@
 </div>
 <h3 class="AnswerParser_AnswerParserH3__Mpe4s"><strong>How to Use the Install.bat File</strong></h3>
 <ol class="AnswerParser_AnswerParserOrderedList__kl_2Y">
-<li class="AnswerParser_ListItem__XqLOV" translate="yes">Save the above content into a file named&nbsp;<code translate="no">install.bat</code>&nbsp;in the root directory of your project.</li>
-<li class="AnswerParser_ListItem__XqLOV" translate="yes">Double-click the&nbsp;<code translate="no">install.bat</code>&nbsp;file to run it.</li>
+<li class="AnswerParser_ListItem__XqLOV" translate="yes">Save the above content into a file named&nbsp;<code translate="no">installdependencies.bat</code>&nbsp;in the root directory of your project.</li>
+<li class="AnswerParser_ListItem__XqLOV" translate="yes">Double-click the&nbsp;<code translate="no">installdependencies.bat</code>&nbsp;file to run it.</li>
 <li class="AnswerParser_ListItem__XqLOV" translate="yes">The script will automatically install all the required Python libraries.</li>
 </ol>
 <hr />
