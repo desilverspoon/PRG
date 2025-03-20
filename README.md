@@ -19,3 +19,8 @@ Rating.html will contain the overlay source to allow you to utilize a custom wid
 Auto Installed will be in the next update. 
 
 
+Overlay Example:
+
+![image](https://github.com/user-attachments/assets/92842412-ecfd-4026-b670-7d866fc1a73f)
+
+
