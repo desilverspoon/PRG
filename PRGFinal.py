@@ -82,7 +82,7 @@ def extract_and_save_data():
 
     try:
         # URL of the player profile
-        url = 'https://leetify.com/app/profile/76561199642078571'
+        url = 'https://leetify.com/app/profile/YOUR_ID_HERE'
         print(f"Navigating to URL: {url}")
         driver.get(url)
 
