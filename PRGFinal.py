@@ -92,7 +92,7 @@ def extract_and_save_data():
                 EC.presence_of_element_located((By.XPATH, "//div[@class='rank-and-name']//div[contains(@class, 'cs-rating')]//span[contains(@class, 'label-large')]"))
             ).text
         except Exception as e:
-            print("Error finding large_label:", e)
+            print("Error Scraping Rating: Check your url is correct.", e)
             return
 
         # Wait for the label-small element to load
@@ -101,7 +101,7 @@ def extract_and_save_data():
                 EC.presence_of_element_located((By.XPATH, "//div[@class='rank-and-name']//div[contains(@class, 'cs-rating')]//span[contains(@class, 'label-small')]"))
             ).text
         except Exception as e:
-            print("Error finding small_label:", e)
+            print("Error Scraping Rating: Check your url is correct.", e)
             return
 
         # Combine the values
