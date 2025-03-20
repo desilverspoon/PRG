@@ -4,7 +4,7 @@ The Player Rating Grabber is a Python-based tool designed to extract, track, and
 
 To change the player URL simply navigate to leetify.com/app/profile/GRAB_YOUR_ID_AND_PASTE_IT_HERE
 
-CSSTATS will be enabled in future updates, for now, data is pulled from Leetify. In order to change the premier rank between colors, you will need to fetch the hosted static image from csstats through inspect element:
+CSSTATS will be enabled in future updates, for now, data is pulled from Leetify. In order to change the premier rank between colors, you will need to fetch the hosted static image from CSSTATS through inspect element:
 
 ![image](https://github.com/user-attachments/assets/04b87963-f10f-4913-aa08-ee1394332af1)
 
@@ -16,5 +16,6 @@ The tool will fetch new data every 30 minutes to allow for real-time updates to 
 
 Rating.html will contain the overlay source to allow you to utilize a custom widget with StreamLabs Desktop. For now, you will need to manually edit your rating but future updates will have automation.
 
+Auto Installed will be in the next update. 
 
 
