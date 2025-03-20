@@ -8,16 +8,41 @@ CSSTATS will be enabled in future updates, for now, data is pulled from Leetify.
 
 ![image](https://github.com/user-attachments/assets/04b87963-f10f-4913-aa08-ee1394332af1)
 
-You will need to download and install Python, Selenium and ChromeDriver
+Dependencies
+This tool requires the following dependencies to be installed:
+Python 3.8+
+Ensure you have Python installed on your system. You can download it from python.org.
+Required Python Libraries
+The following Python libraries are required for the tool to function:
+selenium - For web scraping and browser automation.
+matplotlib - For generating graphs.
+schedule - For scheduling tasks to run periodically.
+time - For managing delays in the script.
+csv - For handling CSV file operations.
+os - For file path and directory management.
+datetime - For working with timestamps.
+Google Chrome
+The tool uses Google Chrome for browser automation. Ensure you have the latest version of Chrome installed.
+ChromeDriver
+ChromeDriver is required to control the Chrome browser. Download the version of ChromeDriver that matches your Chrome browser version from ChromeDriver Downloads.
 
-Ensure you know the directories you are installing files; pathing is vitally important.
+Installation Instructions
+To install all the required Python libraries, you can use the provided install.bat file. This will automatically install the dependencies using pip.
+Install.bat File
+This batch file will install all the required Python libraries for the tool.
+
+
+How to Use the Install.bat File
+Save the above content into a file named install.bat in the root directory of your project.
+Double-click the install.bat file to run it.
+The script will automatically install all the required Python libraries.
+Additional Notes
+Ensure that pip is added to your system's PATH environment variable. If pip is not recognized, you may need to reinstall Python and check the option to add it to PATH during installation.
+If you encounter any issues with ChromeDriver, ensure that the version matches your installed Chrome browser version.
 
 The tool will fetch new data every 30 minutes to allow for real-time updates to your rating while you stream. To cancel the process just press Ctrl+C
 
 Rating.html will contain the overlay source to allow you to utilize a custom widget with StreamLabs Desktop. For now, you will need to manually edit your rating but future updates will have automation.
-
-Auto Installation will be in the next update. 
-
 
 Overlay Example:
 
