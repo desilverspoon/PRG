@@ -16,11 +16,13 @@ The tool will fetch new data every 30 minutes to allow for real-time updates to 
 
 Rating.html will contain the overlay source to allow you to utilize a custom widget with StreamLabs Desktop. For now, you will need to manually edit your rating but future updates will have automation.
 
-Auto Installed will be in the next update. 
+Auto Installation will be in the next update. 
 
 
 Overlay Example:
 
 ![image](https://github.com/user-attachments/assets/92842412-ecfd-4026-b670-7d866fc1a73f)
 
+
+Enjoy the tool! -Spoon
 
